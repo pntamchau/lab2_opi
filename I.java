@@ -1,0 +1,30 @@
+public class I implements J, F {
+
+    private byte f = 1;
+
+    private byte g = 1;
+
+    public String nn() {
+        return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
+    }
+
+    public float ff() {
+        return 0;
+    }
+
+    public long ac() {
+        return 111;
+    }
+
+    public void bb() {
+        System.out.println(getClass().getName());
+    }
+
+    public java.util.Set<Integer> ll() {
+        return new java.util.LinkedList<Integer>;
+    }
+
+    public double ad() {
+        return 9.11;
+    }
+}
