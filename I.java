@@ -31,4 +31,8 @@ public class I implements J, F {
     public int[] ii() {
         return new int[]{4, 3, 2, 1};
     }
+
+    public Object gg() {
+        return return getClass().getClassLoader();
+    }
 }
