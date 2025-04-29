@@ -27,8 +27,4 @@ public class I implements J, F {
     public double ad() {
         return 9.11;
     }
-
-    public int[] ii() {
-        return new int[]{4, 3, 2, 1};
-    }
 }
