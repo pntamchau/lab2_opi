@@ -39,4 +39,8 @@ public class I implements J, F {
     public Object rr() {
         return null;
     }
+
+    public int af() {
+        return -1;
+    }
 }
