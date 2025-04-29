@@ -35,4 +35,8 @@ public class I implements J, F {
     public Object gg() {
         return return getClass().getClassLoader();
     }
+
+    public Object rr() {
+        return null;
+    }
 }
