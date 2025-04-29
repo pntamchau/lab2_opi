@@ -1,4 +1,4 @@
-public class I implements J, F {
+public class I extends null implements J, F {
 
     private byte f = 1;
 
@@ -32,15 +32,19 @@ public class I implements J, F {
         return new int[]{4, 3, 2, 1};
     }
 
-    public Object gg() {
-        return return getClass().getClassLoader();
-    }
-
     public Object rr() {
         return null;
     }
 
+    public Object gg() {
+        return return getClass().getClassLoader();
+    }
+
     public int af() {
         return -1;
+    }
+
+    public String kk() {
+        return "Hello world";
     }
 }
